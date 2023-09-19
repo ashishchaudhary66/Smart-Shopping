@@ -20,7 +20,7 @@ const Product = ({item}) => {
     navigate('/login')
   }
   return(
-    <div className="max-w-[250px] rounded-xl flex flex-col justify-between p-4 mb-4 border-[2px] box-shadow transition-all duration-500">
+    <div className="max-w-[340px] md:max-w-[250px] rounded-xl flex flex-col justify-between p-4 mb-4 border-[2px] box-shadow transition-all duration-500">
       <div className="p-2">
         <p className="mb-4 font-bold text-sm">{item.title}</p>
         <p className="text-xs">{item.description.substring(0,150)}...</p>
